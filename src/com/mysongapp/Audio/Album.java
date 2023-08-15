@@ -1,10 +1,13 @@
 package com.mysongapp.Audio;
 
+import java.util.ArrayList;
+
 public class Album {
 
     private String name;
     private int launchYear;
     private String artist;
+    private ArrayList<Song> albumTrack;
 
     public Album() {
 
@@ -16,8 +19,9 @@ public class Album {
         this.artist = artist;
     }
 
-    public void printAlbum() {
-        System.out.println(name + "\n" + artist + "\n(" + launchYear + ")");
+    @Override
+    public String toString() {
+        return artist + " - " + name + " (" + launchYear + ")";
     }
 
     public String getName() {
@@ -43,4 +47,13 @@ public class Album {
     public void setArtist(String artist) {
         this.artist = artist;
     }
+
+    public ArrayList<Song> getAlbumTrack() {
+        return albumTrack;
+    }
+
+    public void setAlbumTrack(ArrayList<Song> albumTrack) {
+        this.albumTrack = albumTrack;
+    }
+
 }

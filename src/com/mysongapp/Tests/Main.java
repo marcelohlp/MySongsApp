@@ -1,3 +1,5 @@
+package com.mysongapp.Tests;
+
 import com.mysongapp.Audio.Album;
 import com.mysongapp.Audio.Song;
 import com.mysongapp.Audio.Style;
@@ -22,7 +24,7 @@ public class Main {
                 ...
                 """;
 
-        Song dreamOn = new Song(name, autor, totalDurationSec, aerosmith, rock, lyrics);
+        Song dreamOn = new Song(name, autor, totalDurationSec, aerosmith, rock, lyrics, 3);
 
         dreamOn.addViews();
         dreamOn.addViews();

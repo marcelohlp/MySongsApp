@@ -1,4 +1,4 @@
-package com.mysongapp.rate;
+package com.mysongapp.Rate;
 
 public interface Rate {
 
