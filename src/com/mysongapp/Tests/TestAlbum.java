@@ -10,11 +10,11 @@ public class TestAlbum {
 
     public static void main(String[] args) {
 
-        // Creatind album Bad (Michael Jackson)
+        // Creating album Thriller (Michael Jackson)
         String artist = "Michael Jackson";
-        Album bad = new Album("Thriller", 1982, artist);
+        Album album = new Album("Thriller", 1982, artist);
         ArrayList<Song> tracks = new ArrayList<>();
-        bad.setAlbumTrack(tracks);
+        album.setAlbumTrack(tracks);
 
         // Add songs to our album
         Song theLadyInMyLife = new Song("The Lady In My Life", 300, 9);
@@ -40,7 +40,7 @@ public class TestAlbum {
         tracks.sort(Comparator.comparing(Song::getTrack));
 
         // Showing album's info
-        System.out.println(bad);
+        System.out.println(album);
         System.out.println("Tracks:");
         for (Song item: tracks) {
             System.out.println(item);

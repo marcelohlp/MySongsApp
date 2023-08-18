@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765e51b7-bbfb-4d33-bb68-021ccebc961c" name="Changes" comment="Creating audio related classes">
-      <change afterPath="$PROJECT_DIR$/src/com/mysongapp/Tests/TestAlbum.java" afterDir="false" />
+    <list default="true" id="765e51b7-bbfb-4d33-bb68-021ccebc961c" name="Changes" comment="Working on class Album">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysongapp/Tests/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mysongapp/Audio/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysongapp/Audio/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mysongapp/Audio/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysongapp/Audio/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mysongapp/rate/Rate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysongapp/Rate/Rate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mysongapp/Tests/TestAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mysongapp/Tests/TestAlbum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/projetos_java/MySongsApp",
+    "last_opened_file_path": "C:/projetos_java/java-screenmatch",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
@@ -63,12 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691845203178</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Working on class Album">
+      <option name="closed" value="true" />
+      <created>1692126022178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692126022178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating audio related classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating audio related classes" />
+    <MESSAGE value="Working on class Album" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on class Album" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
